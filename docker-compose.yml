@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    build: ./app
+    volumes:
+      - ./app/src/python3:/var/www/html
+    tty: true
